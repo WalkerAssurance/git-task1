@@ -1,1 +1,121 @@
-Виконайте в терміналі команди git status, git branch, git log, git log --merges. 
+Виконайте в терміналі команди git status, git branch, git log, git log --merges. Створіть новий файл з назвою results.txt на основній гілці та додайте в нього всі результати виконання цих команд.
+-------
+
+Mike@ASUS-VivoBook-X515EP MINGW64 /d/intita/git-task1/git-task1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Mike@ASUS-VivoBook-X515EP MINGW64 /d/intita/git-task1/git-task1 (main)
+$ git branch
+  feature
+* main
+
+Mike@ASUS-VivoBook-X515EP MINGW64 /d/intita/git-task1/git-task1 (main)
+$ git log
+commit 2a3bcceba32bfd9636bc29fe59afa31e333ecdb3 (HEAD -> main)
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 18:16:38 2023 +0300
+
+    added diff.txt
+
+commit 01622e5f5c499a28977980d480a98578571b4287 (origin/main)
+Author: WalkerAssurance <144914896+WalkerAssurance@users.noreply.github.com>
+Date:   Sat Oct 14 18:12:37 2023 +0300
+
+    Create results.txt
+
+commit 2b274c60a9952d36b399e80edfa23312fa60a2c5
+Merge: 59db14d b5a2e73
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 18:03:44 2023 +0300
+
+    fixed merge conflict
+
+commit 59db14d2a32a4d1d38fa719e82089227774b32e6
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:12:25 2023 +0300
+
+    master change
+
+commit b5a2e73d72073cd4e09e7647055027aba609979a (origin/feature, feature)
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:06:54 2023 +0300
+
+    test.txt - change3
+
+commit 54153414d6e9bbf4650527c143997c6bf2d82942
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:06:18 2023 +0300
+
+    test.txt - change2
+
+commit 623561a62f10a7bdb98d5b37273b1b273faa3c4d
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:05:13 2023 +0300
+
+    test.txt - change1
+
+commit ae8ef867eef7cda876d30f7def48b47c532eaeae
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:02:11 2023 +0300
+
+    added test.txt
+(END)
+commit 2a3bcceba32bfd9636bc29fe59afa31e333ecdb3 (HEAD -> main)
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 18:16:38 2023 +0300
+
+    added diff.txt
+
+commit 01622e5f5c499a28977980d480a98578571b4287 (origin/main)
+Author: WalkerAssurance <144914896+WalkerAssurance@users.noreply.github.com>
+Date:   Sat Oct 14 18:12:37 2023 +0300
+
+    Create results.txt
+
+commit 2b274c60a9952d36b399e80edfa23312fa60a2c5
+Merge: 59db14d b5a2e73
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 18:03:44 2023 +0300
+
+    fixed merge conflict
+
+commit 59db14d2a32a4d1d38fa719e82089227774b32e6
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:12:25 2023 +0300
+
+    master change
+
+commit b5a2e73d72073cd4e09e7647055027aba609979a (origin/feature, feature)
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:06:54 2023 +0300
+
+    test.txt - change3
+
+commit 54153414d6e9bbf4650527c143997c6bf2d82942
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:06:18 2023 +0300
+
+    test.txt - change2
+
+commit 623561a62f10a7bdb98d5b37273b1b273faa3c4d
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:05:13 2023 +0300
+
+    test.txt - change1
+
+commit ae8ef867eef7cda876d30f7def48b47c532eaeae
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 14:02:11 2023 +0300
+
+    added test.txt
+
+Mike@ASUS-VivoBook-X515EP MINGW64 /d/intita/git-task1/git-task1 (main)
+$ git log --merges
+commit 2b274c60a9952d36b399e80edfa23312fa60a2c5
+Merge: 59db14d b5a2e73
+Author: WalkerAssurance <mihailg.post@gmail.com>
+Date:   Sat Oct 14 18:03:44 2023 +0300
+
+    fixed merge conflict
