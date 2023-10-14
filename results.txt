@@ -1,0 +1,1 @@
+Виконайте в терміналі команди git status, git branch, git log, git log --merges. 
